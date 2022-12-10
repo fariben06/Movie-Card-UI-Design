@@ -57,7 +57,7 @@ body
 .card .details
 {
     position: absolute;
-    bottom: 0;
+    bottom: -175px;
     left: 0;
     padding: 20px;
     width: 100%;
@@ -66,7 +66,7 @@ body
 }
 .card:hover .details
 {
-    bottom: 40px;
+    bottom: 0px;
 }
 .card .details .logo
 {
@@ -87,9 +87,10 @@ body
     color: #f7f406;
     font-size: 1em;
 }
-.card .details .rating .fa-star span
+.card .details .rating span
 {
     color: #fff;
+    margin-left: 5px;
 }
 .card .details .tags
 {
@@ -107,6 +108,44 @@ body
 {
     background: #ff5722;
 }
+.card .details .info
+{
+    color: #fff;
+    margin-top: 20px;
+}
+.card .details .cast
+{
+    position: relative;
+}
+.card .details .cast h4
+{
+    color: #fff;
+    margin: 10px;
+}
+.card .details .cast ul
+{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.card .details .cast ul li 
+{
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.card .details .cast ul li img
+{
+    max-width: 100%;
+}
+
+
+
+
 
 
 
